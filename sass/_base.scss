@@ -1,16 +1,38 @@
 @import "compass/utilities/sprites";
 @import "../images/*.png";
 
+$blue:    #269abc;
+
 .header{
   margin-top: 1em;
 }
-
 .main-logo{
   @include images-sprite(glossybox_logo);
   width: images-sprite-width(glossybox_logo);
   height: images-sprite-height(glossybox_logo);
   margin-right: 1em;
 }
+div.main-title{
+  background-color: $blue;
+  color: #ffffff;
+}
+
+ul.nav-pills>li{
+  a {
+    color: $blue;
+  }
+  &.active a{
+    background-color: $blue;
+    &:hover{
+      background-color: $blue;
+    }
+  }
+}
+
+h2, h3 {
+  color: $blue !important;
+}
+
 
 .text-container{
   padding: 1.5em 3em;
