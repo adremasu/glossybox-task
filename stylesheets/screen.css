@@ -9,7 +9,7 @@
 
 /* line 6, ../sass/_base.scss */
 .header {
-  margin-top: 1em;
+  margin: 1em 0 1em;
 }
 
 /* line 9, ../sass/_base.scss */
@@ -54,16 +54,28 @@ h2, h3 {
   margin-top: 1em;
 }
 
-/* line 44, ../sass/_base.scss */
+@media screen and (max-width: 300px) {
+  /* line 45, ../sass/_base.scss */
+  .secondary-section img, .main-section img {
+    width: 100%;
+  }
+}
+/* line 50, ../sass/_base.scss */
 .img-container {
   text-align: center;
 }
 
-/* line 48, ../sass/_base.scss */
+@media screen and (max-width: 350px) {
+  /* line 55, ../sass/_base.scss */
+  .footer img {
+    width: 100%;
+  }
+}
+/* line 60, ../sass/_base.scss */
 .footer {
   padding-bottom: 2em;
 }
-/* line 49, ../sass/_base.scss */
+/* line 61, ../sass/_base.scss */
 .footer .img-container {
   margin-top: 0.5em;
 }

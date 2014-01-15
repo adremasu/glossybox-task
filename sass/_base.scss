@@ -4,7 +4,7 @@
 $blue:    #269abc;
 
 .header{
-  margin-top: 1em;
+  margin: 1em 0 1em;
 }
 .main-logo{
   @include images-sprite(glossybox_logo);
@@ -40,9 +40,21 @@ h2, h3 {
 .secondary-section{
   margin-top: 1em;
 }
-
+@media screen and (max-width: 300px){
+  .secondary-section, .main-section{
+    img{
+      width: 100%;
+    }
+  }
+}
 .img-container{
   text-align: center;
+}
+
+@media screen and (max-width: 350px){
+  .footer img{
+    width: 100%;
+  }
 }
 
 .footer{
