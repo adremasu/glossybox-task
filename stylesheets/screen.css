@@ -2,14 +2,12 @@
  * In this file you should write your main styles. (or centralize your imports)
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
-/* line 50, ../images/*.png */
+/* line 42, ../images/*.png */
 .images-sprite, .main-logo {
-  background: url('/images/../images-s84ac3400b9.png') no-repeat;
+  background: url('/images/../images-s7e38c10019.png') no-repeat;
 }
 
-/* line 5, ../sass/_base.scss */
+/* line 4, ../sass/_base.scss */
 .main-logo {
-  width: 300px;
-  height: 300px;
-  background-position: 0 -1536px;
+  background-position: 0 0;
 }
