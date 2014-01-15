@@ -1,0 +1,9 @@
+@import "compass/utilities/sprites";
+@import "../images/*.png";
+
+
+.main-logo{
+  width: 300px;
+  height: 300px;
+  @include images-sprite(glossybox_logo);
+}
