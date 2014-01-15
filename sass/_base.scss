@@ -1,7 +1,31 @@
 @import "compass/utilities/sprites";
 @import "../images/*.png";
 
-.main-logo{
-  @include images-sprite(glossybox_logo);
+.header{
+  margin-top: 1em;
 }
 
+.main-logo{
+  @include images-sprite(glossybox_logo);
+  width: images-sprite-width(glossybox_logo);
+  height: images-sprite-height(glossybox_logo);
+  margin-right: 1em;
+}
+
+.text-container{
+  padding: 1.5em 3em;
+}
+.secondary-section{
+  margin-top: 1em;
+}
+
+.img-container{
+  text-align: center;
+}
+
+.footer{
+  .img-container{
+    margin-top: 0.5em;
+  }
+  padding-bottom: 2em;
+}

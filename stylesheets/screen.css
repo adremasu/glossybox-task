@@ -8,6 +8,38 @@
 }
 
 /* line 4, ../sass/_base.scss */
+.header {
+  margin-top: 1em;
+}
+
+/* line 8, ../sass/_base.scss */
 .main-logo {
   background-position: 0 0;
+  width: 230px;
+  height: 48px;
+  margin-right: 1em;
+}
+
+/* line 15, ../sass/_base.scss */
+.text-container {
+  padding: 1.5em 3em;
+}
+
+/* line 18, ../sass/_base.scss */
+.secondary-section {
+  margin-top: 1em;
+}
+
+/* line 22, ../sass/_base.scss */
+.img-container {
+  text-align: center;
+}
+
+/* line 26, ../sass/_base.scss */
+.footer {
+  padding-bottom: 2em;
+}
+/* line 27, ../sass/_base.scss */
+.footer .img-container {
+  margin-top: 0.5em;
 }
